@@ -1,4 +1,10 @@
 /* Estilo general */
+scrollable-container{
+  height: 400px;
+  overflow:auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;

@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <main>
+      <main className="scrollable-container">
         {productos.map(producto => <Producto key={producto.id} nombre={producto.nombre} precio={producto.precio}/> )}
       </main>
       <Footer/>
